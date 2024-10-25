@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -12,15 +11,35 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MCO_TaftBites"
         tools:targetApi="31">
+
+        <!-- Launching at RestaurantDetailsActivity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".RestaurantDetailsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Next activity for review details -->
+        <activity
+            android:name=".ReviewRatingsReviews_DetailsActivity"
+            android:exported="true" />
+
+        <!-- Final activity for giving rating -->
+        <activity
+            android:name=".RateReviewActivity"
+            android:exported="true" />
+
+        <!-- Main Activity can still be here if needed -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

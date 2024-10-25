@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="star_filled_color">#66C000</color>
+    <color name="star_empty_color">#D3D3D3</color>
+    <color name="star_half_filled_color">#A4D600</color>
 </resources>

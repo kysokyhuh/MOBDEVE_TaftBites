@@ -1,5 +1,6 @@
 package com.mobdeve.s21.grp4.mco_taftbites;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
